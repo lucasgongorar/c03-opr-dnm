@@ -1,14 +1,21 @@
 [{
-	"name": "Técnicas de Representación",
-	"code": "DNO1012",
-	"about": "En este curso los estudiantes trabajarán en el entrenamiento sistemático (Práctico) de la Representación a través de la ejercitación del dibujo de observación, el croquis y otras técnicas, con el propósito de entregar al diseñador en formación, una herramienta práctica para ser usada durante el proceso de ideación de un proyecto, hasta su ejecución formal. Para ello se instruirán en el uso de dicho instrumento reconociendo y analizando los principios de la observación, percepción, composición, fenómenos de la forma y sus configuraciones, a través de tareas constantes, realizadas en el aula y en la figura de encargos."
+	"name": "Neurociencias",
+	"code": "MED408A",
+	"about": "El curso desarrolla las herramientas teóricas y prácticas que todo médico debiera manejar para enfrentar los problemas neurológicos, conductuales y psiquiátricos de la práctica clínica habitual es decir la capacidad en la detección, manejo inicial y adecuada derivación al especialista cuando corresponda. Por sus particularidades de metodología, semiología y lenguaje se ha subdividido el curso en una sección de Neurología y otra de Psiquiatría que, si bien se desarrollan en paralelo, están coordinadas para tener un enfoque coherente y armónico especialmente en aquellos temas comunes a ambas disciplinas."
 }, {
-	"name": "Diseño, Tecnología y Sociedad",
-	"code": "DNO1023",
-	"about": "Este curso les permitirá a los estudiantes, construir un marco teórico sobre la noción de tecnología, su historia, principales conceptos y su impacto en diferentes áreas de la sociedad, particularmente en el diseño y disciplinas creativas. Se llevará a cabo desde una perspectiva reflexiva y crítica incluyendo ejercicios prácticos que les permitan integrar los conceptos del curso. Al finalizar, los estudiantes serán capaces de distinguir los aspectos culturales, éticos y técnicos más relevantes relativos a las tecnologías, en el panorama actual de acelerados cambios, pudiendo reconocer el rol potencial del diseño en la configuración de los escenarios que se abren a futuro."
+	"name": "Fisiología",
+	"code": "BIO135C",
+	"about": "Este curso esta dirigido a alumnos de Quimica y Farmacia. Proporciona una vision integrada de la fisiologia a nivel molecular, celular y de sistemas. Describe el funcionamiento e interrelación de los diversos sistemas del organismo."
 }, {
-	"name": "Laboratorio de Experimentación y Prototipado",
-	"code": "DNO1013",            
-	"about": "Curso teórico-práctico que permite al estudiante aplicar el prototipado como una herramienta integral en el proceso de diseño, poniendo en práctica habilidades para tangibilizar ideas e incorporar información a través del uso de prototipos, incorporando como base la sustentabilidad y como objetivo final el lograr un nivel profesional en la fabricación. El estudiante formará una visión estratégica respecto al uso de prototipos en el proceso de desarrollo, incorporando la validación y la iteración como elementos clave. Se realizarán ejercicios prácticos grupales e individuales de carácter diagnóstico, formativo y sumativo, junto con el desarrollo de proyectos."
-
+	"name": "Investigación, Innovación y Emprendimiento",
+	"code": "ING2030",
+	"about": "El curso permite al estudiante conocer e interiorizarse en la realidad del emprendimiento de base científica y tecnológica. Se expone al alumno a las técnicas y estrategias del estado del arte relacionadas al descubrimiento, diseño e implementación de oportunidades de emprendimiento. Para ello el alumno desarrolla colaborativamente en grupo un emprendimiento tecnológico, el cual con la ayuda de mentores deberá defender frente a un panel de inversionistas de riesgo."
+}, {
+	"name": "Dibujo de Croquis y Boceto",
+	"code": "ARO103D",
+	"about": "En este curso los estudiantes desarrollarán habilidades de observación y técnicas de representación gráfica, por medio del dibujo de croquis y boceto a partir de diferentes modelos. Los trabajos serán evaluados de manera continua, reforzando el proceso individual de cada estudiante, a partir de trabajo en taller y en espacios exteriores."
+}, {
+	"name": "Introducción a los Biomateriales y la Biofabricación",
+	"code": "ARQ3646",
+	"about": "El curso se plantea en dos frentes. Por un lado, desarrolla aspectos teóricos, vinculados a los procesos de Biofabricación; y por otro, entrega conocimientos básicos, vinculado al trabajo práctico de laboratorio. Mediante el estudio de casos y la presentación de conceptos elementales de biología, química y física, se busca introducir a los estudiantes en el mundo de la Bio-fabricación."
 }]
