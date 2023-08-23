@@ -13,7 +13,7 @@
                 <a href="index.html">Amo a Taylor</a>
                 <a href="cursos.html">CURSOS</a>
                 <a href="emoji.html">EMOJI</a>
-                <a href="swiftie.html" style="text-decoration: line-through">SWIFTIE</a>
+                <a href="swiftie.html" style="text-decoration:underline;">SWIFTIE</a>
             </h1>
         </header>
         <main>
@@ -27,18 +27,21 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            var data = 
             function preload() {
-            data = loadJSON("https://taylorswiftapi.onrender.com/get");
-
-            function setup() {
-                noCanvas();
-                select("#horas").html("hh");
-                select("#minutos").html("mm");
-                select("#cancion").html("song");
-                select("#disco").html("album");                
-                select("#letra").html("quote");
+                data = loadJSON("https://taylorswiftapi.onrender.com/get");
             }
+            function setup() {
+                var hora_actual = new Date();
+                var horas = hora_actual.getHours();
+                var minutos = hora_actual.getMinutes();
+                noCanvas();
+                select("#horas").html(horas);
+                select("#minutos").html(minutos);
+                select("#cancion").html(data.song);
+                select("#disco").html(data.album);                
+                select("#letra").html(data.quote);
+            }
+        </script>
         </script>
     </body>
 </html>

@@ -12,7 +12,7 @@
             <h1>
                 <a href="index.html">Los que más uso</a>
                 <a href="cursos.html">CURSOS</a>
-                <a href="emoji.html" style="text-decoration: line-through">EMOJI</a>
+                <a href="emoji.html" style="text-decoration:underline;">EMOJI</a>
                 <a href="swiftie.html">SWIFTIE</a>
             </h1>
         </header>
@@ -22,14 +22,17 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
+            var palabra;
+            var palabras = ["🌈","🌻","🐇","💅","💋"];
             function setup() {
+                palabra = random(palabras);
                 createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", "-1");
             }
             function draw() {
                 background('#081F86');
-                textSize(42);
+                textSize(100);
                 textAlign(CENTER,CENTER);
-                text("EMOJI", mouseX, mouseY);
+                text(palabra, mouseX, mouseY);
             }
             function windowResized() {
                 resizeCanvas(windowWidth, windowHeight);
